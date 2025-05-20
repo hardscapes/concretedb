@@ -1,7 +1,7 @@
 {
     "name": "concretedb", 
     "version": "0.1.0",
-    "description": "A DynamoDB-like API implementation on FoundationDB, named ConcreteDB", // Updated
+    "description": "A DynamoDB-like API implementation on FoundationDB, named ConcreteDB", 
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -23,7 +23,7 @@
     "author": "Your Name",
     "license": "ISC",
     "dependencies": {
-      "foundationdb": "^0.7.0"
+      "foundationdb": "^2.0.1"
     },
     "devDependencies": {
       "@types/jest": "^29.5.12",

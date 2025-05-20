@@ -1,0 +1,20 @@
+# ConcreteDB
+
+A DynamoDB-like API implementation on FoundationDB, built with NodeJS and TypeScript.
+
+## Overview
+
+This project aims to provide a subset of Amazon DynamoDB's API, backed by FoundationDB as the underlying distributed key-value store.
+
+## Features (Planned)
+
+* Core DynamoDB table operations (CreateTable, DescribeTable, ListTables, DeleteTable)
+* Core item operations (PutItem, GetItem, UpdateItem, DeleteItem)
+* Query and Scan capabilities
+* Batch operations
+* (Future) Secondary Indexing
+
+## Setup
+
+```bash
+npm install
